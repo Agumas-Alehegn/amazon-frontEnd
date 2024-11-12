@@ -1,0 +1,40 @@
+.category {
+  width: 275px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 0 20px;
+}
+.category img {
+  width: 100%;
+  object-fit: contain;
+  max-height: 200px;
+  pad: 0 10px;
+}
+.category a {
+  text-decoration: none;
+}
+.category h2 {
+  padding: 20px 0 10px;
+  font-size: 21px;
+}
+.category p {
+  color: #007185;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.category p:hover {
+  color: rgb(199, 81, 31);
+}
+.category_container {
+  display: grid;
+  max-width: 1400px;
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+  gap: 25px;
+  max-width: 1600px;
+  margin: -20% auto 0;
+  justify-items: center;
+  overflow-x: hidden;
+  position: relative;
+  place-items: center;
+  padding: 0 20px;
+}

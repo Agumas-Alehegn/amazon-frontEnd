@@ -1,0 +1,35 @@
+.order_section_container {
+  background: #efeeee;
+  padding: 30px;
+}
+
+.order_section_container h2 {
+  border-bottom: 2px solid var(--secondary-color);
+  padding: 20px;
+}
+.orders_container {
+  background-color: #fff;
+}
+.orders_container img {
+  width: 120px;
+  height: auto;
+}
+.order_section_container > div > p {
+  font-size: 20px;
+  margin: 20px 24px;
+  padding: 20px;
+  text-align: center;
+}
+.orders_container .orders p {
+  padding-top: 20px;
+}
+.orders_container .orders p span {
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.orders_container .orders hr {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 0 20px;
+}

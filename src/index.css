@@ -1,0 +1,29 @@
+@import url("https://fonts.cdnfonts.com/css/amazon-ember");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: rgb(15, 17, 17);
+  --secondary-color: #de7921;
+  --tertiary-color: #ffc011;
+  --amazon-btn-color: #ffd722;
+  --tertiary-color-subtle: #e1ca00;
+  --primary-color-subtle: #565959;
+  --nav-font-color: #ffffff;
+  --body-background-color: #e3e6e6;
+  --topNav-background-color: #131921;
+  --lowerNav-background-color: #232f3e;
+  --linkPrimary-color: #007185;
+}
+
+body {
+  box-shadow: border-box;
+  font-family: "Amazon Ember", sans-serif;
+  background-color: var(--body-background-color);
+}
+a {
+  font-family: "Amazon Ember", sans-serif;
+}
